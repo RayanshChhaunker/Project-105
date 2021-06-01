@@ -1,0 +1,21 @@
+.thing {
+    width: 700px;
+    background-color: aqua;
+    color: red;
+    height: 45px;
+    font-size: larger;
+}
+body {
+    background-image: linear-gradient(yellow, green);
+}
+h5 {
+    font-size: larger;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: bold;
+}
+#webcam {
+    width: 300px;
+    height: 300px;
+    border: dashed;
+}

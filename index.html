@@ -1,0 +1,54 @@
+<html>
+    <head>
+    <link rel="Stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <script src="main.js"></script>
+    
+        <title>Project 103</title>
+
+    </head>
+
+    <body>
+        <center>
+            <h1>Project 103</h1>
+            <div><h2>This website is trained to recognise the following people -</h2></div>
+            <br><br>
+            <div class="thing"><label>Rayansh (me)</label></div>
+            <br><br>
+            <br><br>
+            <div class="thing"><label>Mum</label></div>
+
+            <b><h3 id="sts">Webcam View - </h3></b>
+
+      <br><br>
+
+      <br><br>
+
+      <div id="webcam"></div>
+
+      <br><br>
+
+      <br><br>
+
+      <button class="btn btn-success" id="Capture_image" onclick="snapfunc()">Capture image</button>
+      <br>
+      <div id="resultofcam"></div>
+      <br>
+      <button class="btn btn-danger" id="Identify_image" onclick="check()">Identify image</button>
+      <br>
+      <br>
+
+      <p id="object" style="font-size: 22px;">Object :  </p>
+
+      <p id="accuracy" style="font-size: 22px;">Accuracy :  </p>
+    </center>
+
+
+    </body>
+
+</html>
